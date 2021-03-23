@@ -1,0 +1,223 @@
+a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
+a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
+.cabeceraGU{
+    width: 90%;
+}
+.cabeceraGUboton{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    padding: 0;
+    margin: 0;
+}
+.cabeceraGUtotal{
+    display: flex;
+}
+.div_iconEditGU, .div_iconDeleteGU{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_iconEditGU{
+    float: left;
+}
+.div_iconDeleteGU{
+    float: right;
+}
+.deleteUser :hover{
+    color:red;
+}
+.iconosGU:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.iconosGU:focus{
+    border: solid #f8f9fc .1rem;
+    text-decoration: none;
+    text-emphasis: none;
+    outline: 0px;
+    outline: none !important;
+}
+.btn-add{
+    color:#fff;
+    background-color: #207558;
+    border-color: #207558;
+}
+.div_agregarUsuarioGU{
+    width: 95%;
+    margin-bottom: 1%;
+}
+.div_agregarUsuarioGU a{
+    float: right;
+}
+.btn_addGU img{
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+}
+.btn_addGU img:hover{
+    opacity: 0.8;
+}
+.btn_addGU{
+    font-size: 18px;
+    color:#207558 ;
+}
+.btn_addGU:hover{
+    color:#185741 ;
+    .btn_addGU img{
+        opacity: 1;
+    }
+}
+
+.dgPerfil{
+    width: 80%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//LOGO DE MENU PRINCIPAL
+.imgMenuGestor{
+    width: 100%;
+    height: auto;
+}
+
+//CONTENIDO DE LA TARJETA
+.contenidoDGPerfil{
+    width: 90%;
+    height: fit-content;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: table;
+}
+
+//CONTENIDO TEXTO
+.contenidoDGPerfilA,
+.contenidoDGPerfilB{
+    width: 50%;
+    display: table-cell;
+}
+
+.contenidoDGPerfilA{
+    vertical-align: middle;
+}
+
+.imgGU{
+    width: 50%;
+    height: fit-content;
+    margin-left: 45%;
+    margin-right: 25%;
+    border-radius: 5px;
+    border-bottom: solid #207558 .3rem;
+    img{
+        width: 100%;
+        // max-width: 600px;
+        height: 100%;
+        display: block;
+    }
+}
+
+.datGePerfil{
+    display: flex;
+
+    .izPerfil{
+        text-align: right;
+        width: 20%;
+    }
+    .derPerfil{
+        text-align: left;
+        width: 80%;
+    }
+}
+
+.datGePerfil{
+    display: inline-block;
+    width: 100%;
+    .izPerfil, 
+    .derPerfil{
+    width: 100%;
+    float: left;
+
+        p{
+            margin: 0px;
+        }
+    }
+
+    .derPerfil{
+        text-align: left;
+        width: 100%;
+        p{
+            margin-bottom: 1rem;
+        }
+    }
+
+    .izPerfil{
+        text-align: left;
+        width: 100%;
+        p{
+            margin: 0px;
+        }
+    }
+}
+
+
+//RESPONSIVIDAD
+@media(max-width: 1600px){
+    .datGePerfil{
+        .izPerfil, 
+        .derPerfil{
+        float: left;
+        }
+    }
+}
+@media(max-width: 1100px){
+    //CONTENIDO TEXTO
+    .contenidoDGPerfilB{
+        // width: 100%;
+        // display: table-header-group;
+        // padding-bottom: 50px;
+        .btn{
+            margin-bottom: 50px;
+        }
+    }
+    //CONTENIDO TEXTO
+    .contenidoDGPerfilA{
+        width: 100%;
+        display: table-footer-group;
+    }
+    .cabeceraGU{
+        width: 80%;
+    }
+    .cabeceraGUboton{
+        width: 20%;
+    }
+}
+
+@media (max-width: 700px){
+    .contenidoDGPerfil{
+        display: block;
+    }
+    .dgPerfil{
+        width: 100%;
+        margin: 0px;
+    }
+    .imgGU{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+}
+@media(max-width: 500px){
+    .btn_addGU{
+        font-size: 14px;
+    }
+    .btn_addGU img{
+        width: 30px;
+        height: 30px;
+    }
+}
+

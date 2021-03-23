@@ -1,0 +1,96 @@
+.container-fluid_datosl{
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+}
+.container-fluid_datosr{
+    width: 50%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+    float: right;
+}
+.boton_pedidoRevisado{
+    float: right;
+    color: white;
+    background-color:#3fb3a4;
+    border: white;
+    box-shadow: none;
+    border-style: none;
+}
+
+.boton_regresar{
+    color: white;
+    background-color:#3fb3a4;
+    border: white;
+    box-shadow: none;
+    border-style: none;
+}
+.boton_check{
+    color: white;
+    background-color:#d97c3f;
+    border: white;
+    box-shadow: none;
+    border-style: none;
+}
+
+
+.num_tablaPedidos{
+    background-color:#d97c3f;
+    color: white;
+}
+
+.cliente_tablaPedidos{
+    background-color:#3fb3a4;
+    color: white;
+}
+.fecha_tablaPedidos{
+    background-color:#efce4a;
+    color: white;
+}
+.tel_tablaPedidos{
+    background-color: #a671bd;
+    color: white;
+}
+.monto_tablaPedidos{
+    background-color:#5CBE86;
+    color: white;
+}
+.estado_tablaPedidos{
+    background-color:#cc695f;
+    color: white;
+}
+
+
+.tablePedidoDiv1{
+    width: 60%;
+    margin-top:50px;
+}
+.tablePedidoDiv2{
+    padding: 50px; 
+    border-left:1px solid rgba(0, 0, 0, 0.3); 
+    width:40%; 
+}
+.txt-DetallesPedido{
+    color:#207558; 
+    font-size:35px;
+}
+.estatusPedido-txt{
+    width: 50%;
+    margin-top: 10px;
+}
+
+@media(max-width:950px){
+    .tablePedidoDiv1, .tablePedidoDiv2{
+        width: 100%;
+    }
+}
+@media(max-width:490px){
+    .txt-DetallesPedido{
+        font-size: 25px;
+    }
+}

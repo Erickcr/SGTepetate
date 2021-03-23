@@ -1,0 +1,56 @@
+.headerSP{
+    background-color: #207558;
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .headerSP img{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    margin-left: 30px;
+  }
+  
+  .spTable{
+    width: 100%;
+    height: auto;
+    display: table;
+  }
+  
+  .spRow{
+    display: table-cell;
+  }
+  .spRow2{
+    border-top: double;
+    border-bottom: double;
+    border-color: rgb(238, 238, 238);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: table-cell;
+  }
+  .spPedidoRow{
+    display: table-row;
+  }
+  .spPedidoCell{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    height: 50px;
+  }
+
+  .pad50{
+    padding: 50px;
+  }
+  
+  @media (max-width: 1000px) {
+    .pad50 {
+      padding-top: 50px;
+      padding: 50px;
+    }
+    .spRow{
+      display: table-row;
+    }
+  }

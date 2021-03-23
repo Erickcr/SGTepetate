@@ -1,0 +1,117 @@
+
+.div_SmallSeparacion{
+    height: 18px;
+    text-align: center;
+}
+.div_BigSeparacion{
+    height: 80px;
+    text-align: center;
+}
+#div_negro{
+    background-color:#212121;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+#titulo{
+    color: #FAFAFA;
+    background-color: transparent;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    #titulo {
+      font-size: 80px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    #titulo {
+      font-size: 30px;
+    }
+  }
+
+#siguenos{
+    color: #FAFAFA;
+    background-color: transparent;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    #siguenos {
+      font-size: 50px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    #siguenos {
+      font-size: 20px;
+    }
+  }
+
+#contenido{
+    color: #FAFAFA;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: regular;
+    span {
+      font-weight: bold;
+    }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    #contenido {
+      font-size: 24px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    #contenido {
+      font-size: 15px;
+    }
+  }
+
+#fbIcono{
+  margin-left: 15px;
+  margin-right: 15px;
+    display: block;
+}
+.fa-youtube:hover{
+  color: white !important;
+  border: 0px !important;
+}
+.fa-youtube{
+  color: white !important;
+}
+.fa-facebook-square:hover{
+  color: white !important;
+  border: 0px !important;
+}
+.fa-facebook-square{
+  color: white !important;
+}
+#logosContacto{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+  .fa-3x {
+    font-size: 2em; }
+}

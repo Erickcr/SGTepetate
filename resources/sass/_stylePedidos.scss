@@ -1,0 +1,143 @@
+html, body { height: 100%; }
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;       
+}
+    
+.header{
+    width: 100%;
+    height: 40%;
+    background: url("/images/imgPedido/CarritoBanner.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+}
+.nav .menu-bar{
+    width: 100%;
+    text-align: center;
+    background: rgba(1, 1, 1, 0);
+}
+    
+.menu-bar li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px;
+    margin: 5px 5px;
+    font-size: 15px;
+    font-family: roboto;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.linkmenu{
+    color: white;
+    text-decoration: none;
+}
+
+/*Lo de arriba son los estilos del template*/
+
+/*  estilo  del formulario de pedidos*/
+
+.div_SmallSeparacion{
+    height: 18px;
+    text-align: center;
+}
+.informacion{
+    font-family: roboto;
+    color: black;
+    background-color: transparent;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 0.60;
+
+    li{
+        margin-top: 15px;
+    }
+}
+.containerPedido {
+	width: 100%;
+	background-color: transparent;
+    padding-bottom: 1rem;
+}
+.form__reg {
+    font-family: roboto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+.inputW, .input, .btn__submit, .btn__reset{
+    font-family: roboto;
+    font-size: 16px;
+    background-color: transparent;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+    border-bottom: solid #C8C8C8 .1rem;
+    transition: all .5s;
+    width: 100%;
+}
+.input{
+    color: gray;
+    font-weight: normal;
+}
+.inputW:focus {
+	border-bottom: solid black .1rem;
+}
+.btn__submit, .btn__reset {
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+	background-color: transparent;;
+    color: black;
+    font-weight: regular;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.btn__reset {
+    background-color: black;
+    color: white;
+    border: none;
+}
+.btn__submit:hover {
+    background-color:  rgba(0, 0,0, 0.10);
+    border: 1px solid rgba(0, 0,0, 0.10);;
+}
+.btn__reset:hover{
+    background-color:  rgba(0, 0,0, 0.70);
+}
+.mensaje{
+    background-color: white;
+    box-shadow: 2px 2px 5px #999;
+    width: 80%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.encabezadoB{
+    background-color: #de0909;
+    width: 100%;
+    height: 10%;
+}
+.encabezadoG{
+    background-color: #26ab26;
+    width: 100%;
+    height: 10%;
+}
+.img_icon{
+    width: 40px;
+    height: 40px;
+}

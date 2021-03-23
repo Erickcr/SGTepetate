@@ -1,0 +1,419 @@
+//TITULOS GRANDES: 36px
+//TITULOS GRANDES Responsivo: 22px
+//TEXTO: 20px
+
+#presentacionContainer{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 2%;
+}
+
+.txt_Titulo{
+    text-align: center;
+    font-family: Roboto;
+    color: #771414;
+    font-size: 15px;
+    font-weight: medium;
+    margin: 0px;
+    margin-bottom: 1%;
+}
+
+.hrMediano{
+    height: 1px;
+    border: 0;
+    color:none;
+    background-color: #707070;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+.txt_TituloGrande{
+    text-align: center;
+    font-family: Roboto;
+    color: #771414;
+    font-size: 36px;
+    font-weight:bolder;
+}
+.txt_contenido{
+    text-align: justify;
+    text-align-last: center;
+    font-family: Roboto;
+    color: #13161A;
+    font-size: 20px;
+    font-weight:normal;
+}
+.div_contenido{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+    text-align-last: center;
+}
+#imgPresentacionContainer{
+    width: fit-content;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imgPresentacion{
+    content: url("/img/SENASICA.png") ; 
+    width: 500px;
+    height: auto;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+#img_SENASICA{
+    float: right;
+    margin-right: 10%;
+}
+.div_BigSeparacion{
+    height: 120px;
+    text-align: center;
+    background-color: none;
+}
+#div_mision{
+    height: fit-content;
+    width: 100%;
+    margin: 0px;
+    background: url("/img/misionFondo.jpg")center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: table;
+}
+.div_misionTransparente{
+    color: #757575;
+    background-color:rgba(117, 117,117, 0.65);
+    /* opacity:0.65; */
+    height:fit-content;
+    width: 50%;
+    margin: 0px;
+    display: table-cell;
+}
+.txt_mision{
+    text-align: center;
+    font-family: Roboto;
+    background-color:rgba(117, 117,117, 0);
+    color: #FAFAFA;
+    font-size: 36px;
+    font-weight:black;
+    margin: 0px;
+}
+#txtMissionContainer{
+    width: 100%;
+    height: fit-content;
+    margin-top: 15%;
+}
+#txtMissionContenidoContainer{
+    width: 50%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+}
+.txt_misionContenido{
+    text-align: justify;
+    text-align-last: center;
+    font-family: Roboto;
+    background-color:rgba(117, 117,117, 0);
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight:medium;
+    margin: 0px;
+}
+.txt_valores{
+    text-align: center;
+    font-family: Roboto;
+    background-color:rgba(117, 117,117, 0);
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight:medium;
+    margin: 0px;
+}
+
+#historiaContainer{
+    height: fit-content;
+    display: table;
+    width: 100%;
+}
+#txtHistoriaContainer{
+    width: 100%;
+    height: fit-content;
+    margin-top: 10%;
+}
+#txtHistoriaContenidoContainer{
+    width: 70%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+#div_historia{
+    background-color: #E2DFD8;
+    //height:100%;
+    width: 50%;
+    //vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
+}
+#div_historiaPII{
+    background-color: #207457;
+    //height:fit-content;
+    //width: 50%;
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+}
+#imgHistoria{
+    background: url("/img/historia.jpg")center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+#img_historia{
+    width:100%;
+    height:100%;
+    margin-top: 20%;
+}
+#certificacionContainer{
+    height: fit-content;
+    display: table;
+    width: 100%;
+}
+#div_certificacion{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+#imgCertificacion{
+    background: url("/img/galeria/galeria14 - copia.jpg")center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+#div_certificacion img{
+    width: 50%;
+    height: auto;
+}
+#div_certificacionII{
+    height: 100%;
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+#txtCertificacion{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#txt_certificacion{
+    text-align: center;
+    font-family: Roboto;
+    color: black;
+    font-size: 20px;
+    margin-top: 8%;
+    font-size: 36px;
+}
+#txt_certificacionContenido{
+    text-align: justify;
+    text-align-last: center;
+    font-family: Roboto;
+    color: black;
+    font-size: 20px;
+    font-weight:medium;
+}
+#img_certificacion{
+    margin:auto;
+    display:block;
+    width: 360px;
+    height: auto;
+}
+#btn_certificacion{
+    float: right;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    text-decoration: none;
+    padding: 2.5%;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #fafafa;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color:black;
+    margin-bottom: 10%;
+    width: 70%;
+}
+#btn_certificacion:hover{
+    background-color:#757575;
+    text-decoration: none;
+}
+#div_ubicanos{
+    height: fit-content;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.267) 100%, rgba(0, 0, 0, 0.5)100%),url("/img/Inicio/paraiso.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color:black;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    text-align-last: center;
+}
+.txt_Ubicanos{
+    text-align: center;
+    font-family: Roboto;
+    background-color:rgba(117, 117,117, 0);
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight:medium;
+    margin: 0px;
+}
+#txtUbicanos{
+    width: 100%;
+    height: fit-content;
+}
+#txtUbicanosContenido{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.div_pantallaSeparacion{
+    height: 100%;
+    text-align: center;
+    background-color: none;
+}
+#mapaContainer{
+    width: auto;
+    height: auto;
+}
+#mapa{
+    background-color: transparent;
+    margin:auto;
+    width: 650px;
+    height: 400px;
+	display:block;
+}
+/* Estilo de la galeria */
+.photo-gallery {
+    color:#313437;
+    background-color:#fff;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+
+//---------------------------------RESPONSIVO---------------------------------
+@media (max-width: 700px) {
+    .modal p,
+    #txt_certificacion,
+    .txt_mision,
+	.txt_TituloGrande{
+        font-size: 22px;
+    }
+    .txt_Ubicanos,
+    #btn_certificacion,
+    #txt_certificacionContenido,
+    .txt_Titulo,
+    .txt_valores,
+    .txt_misionContenido,
+    .txt_contenido{
+        font-size: 12px;
+    }
+    .div_contenido{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #imgPresentacionContainer{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #imgPresentacion{
+        width: 100%;
+    }
+    #div_certificacion,
+    #div_certificacion,
+    #div_historia,
+    #div_historiaPII,
+    .div_misionTransparente{
+        width: 100%;
+        display: table-row;
+    }
+    #txtMissionContenidoContainer{
+        width: 90%;
+    }
+    #img_certificacion{
+        width: 20%;
+    }
+    #mapa{
+        width: 300px;
+        height: 180px;
+    }
+    .cerrar,
+    .next,
+    .before{
+        width: 5px;
+        height: 5px;
+    }
+    
+}

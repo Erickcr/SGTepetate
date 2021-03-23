@@ -1,0 +1,255 @@
+.graficasIE{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.chart-containerIE{
+    width: 45%;
+    height: 350px !important;
+}
+
+.chart-containerIE2{
+    width: 45%;
+}
+
+.containerLinksIE{
+    position: relative;
+    width:50%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.containerBotonesIE{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.linksIEingresos, .linksIEegresos{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.linksIEingresos{
+    border:solid #1cc88a .1rem; 
+    color:#1cc88a;
+}
+.linksIEingresos  :hover{
+    background-color: #1cc88a;
+    color:#1cc88a !important;
+}
+.linksIEegresos{
+    border:solid #e74a3b .1rem; 
+    color:#e74a3b; 
+}
+.informacionIE{
+    margin-top: 10px;
+}
+
+.textareaIE :disabled{
+    resize: none;
+    background-color: #ffffff;
+}
+
+.btn-informeIE{
+    background-color: #a2a3aa;
+    margin-top: 15px;
+    border: none;
+}
+
+.btn-informeIE:hover{
+    border: none;
+    background-color: #7a7c88;
+}
+
+.btn-secundarioIE{
+    border: none;
+}
+@media(max-width: 520px){
+    .tipoMov-txt{
+        width: 100%;
+    }
+}
+
+@media(max-width: 450px){
+    .btn-secundarioIE{
+        width: 100%;
+    }
+}
+@media(max-width: 900px){
+    .containerIE{
+        width: 80% !important;
+    }
+}
+@media(max-width: 600px){
+    .containerIE{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .chart-containerIE{
+        width: 90%;
+        height: 350px !important;
+    }
+    .containerLinksIE{
+        width: 95%;
+    }
+    .chart-containerIE2{
+        width: 95%;
+        
+    }
+    .linksIE{
+        margin-left: 0.1vw;
+        margin-right: 0.1vw;
+    }
+    .btn-secundarioIE3{
+        width: 65%;
+    }
+    .cuadrito{
+        width: 48% !important;
+    }
+}
+@media screen and (max-width: 450px){
+    .chart-containerIE{
+        width: 100%;
+        height: 250px !important;
+    }
+}
+
+@media screen and (max-width: 814px){
+    .btn-secundarioIE3{
+        width: 65% !important;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .linksIE{
+        text-decoration: underline;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+        font-weight: bolder;
+    }
+    .btn-secundarioIE{
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .btn-secundarioIE3{
+        width: 35%;
+    }
+    .btn-informeIE{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textBotonIE{
+        width: 90%;
+    }
+}
+
+/*  Estilos del visor de Egresos */
+
+.bodyTablaIE{
+    width: 98%;
+}
+
+.bodyIE{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bodyBotonIE{
+    width: 18%;
+}
+
+.bodyGraficaBarrasIE{
+    width: 100%;
+}
+
+/* Estilos del fomrulario de registro ingresos egresos */
+
+.containerIE{
+    width: 50%;
+	background-color: white;
+	margin: 1% auto;
+    padding-bottom: 1rem;
+    float: left;
+    border: solid #DBDBDB .1rem;
+    border-radius: 2px;
+    display: flex;
+}
+
+.formIE{
+    width: 100% !important;
+	padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.containerCarruselIE{
+    width: 100%;
+    border-radius: 1%;
+    margin-top: 10px;
+    border: 1px solid rgb(172, 172, 172);
+    
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cuadrito{
+    width: 22%;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+
+    border-radius: 5%;
+}
+
+.cuadrito img{
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cuadrito p{
+    font-size: 10px;
+    color: honeydew;
+}
+
+.cuadrito:hover{
+    cursor: pointer;
+    border: solid #5A5C69 0.1rem ;
+}
+
+.cuadroING{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.camposIE:read-only { color:rgb(211, 211, 211); }
+

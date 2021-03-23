@@ -1,0 +1,269 @@
+.cards_categorias{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.card_categoria{
+    width: 40%;
+    // border-left: solid #207558 .3rem;
+    height: 200px;
+}
+.texto_texto_categoria{
+    vertical-align: middle;
+}
+.texto_descripcion_categoria{
+    display: none;
+    justify-content: center;
+    vertical-align: middle;
+    width: 50%;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 22px;
+}
+
+.texto_descripcion_categoria p{
+    text-align: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.texto_texto_categoria p{
+    text-align: auto;
+    width: 100%;
+}
+
+.card_categoria:hover{
+    text-decoration: none;
+    border-left:solid #207558;
+    transition: 0.15s;
+}
+
+.card_categoria:hover div.texto_texto_categoria{
+    display: none;
+}
+
+.card_categoria:hover div.texto_descripcion_categoria{
+    display: flex;
+}
+
+.texto_categoria{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-position: center center !important;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.texto_texto_categoria{
+    width: 50%;
+    color: #FAFAFA;
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+}
+
+.btn_ver_agregar_categoria{ 
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #207558;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+
+.num_tablaInventario{
+    background-color:#d97c3f;
+    color: white; 
+}
+
+.nombre_tablaInventario{
+    background-color:#3fb3a4;
+    color: white;
+}
+.cantidad_tablaInventario{
+    background-color:#efce4a;
+    color: white;
+}
+.unidad_tablaInventario{
+    background-color: #a671bd;
+    color: white;
+}
+.descripcion_tablaInventario{
+    background-color:#5CBE86;
+    color: white;
+}
+.categoria_tablaInventario{
+    background-color:#cc695f;
+    color: white;
+}
+
+.editar_tablaInventario{
+    background-color: #A1A1A1;
+    color: white;
+}
+.restar_tablaInventario{
+    background-color: #A1A1A1;
+    color: white;
+}
+.sumar_tablaInventario{
+    background-color: #A1A1A1;
+    color: white;
+}
+
+.btn_editar_EI{
+    color: #207558;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.btn_restar_EI{
+    color: #e81003;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    vertical-align: middle;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.btn_sumar_EI{
+    color: #01ae01;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    vertical-align: middle;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.botones_editar_eliminar_categoria{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    vertical-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn_editar_eliminar_categoria{
+    margin-right: 10px;
+}
+
+.btn_agregar_inventario{
+    float:right;
+}
+.btn_eliminar_inventario{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+@media (max-width: 560px) {
+    .botones_editar_eliminar_categoria{
+        justify-content: center;
+    }
+
+}
+@media (max-width: 370px) {
+    .newItemI{
+        font-size: 12px;
+    }
+}
+@media (max-width: 1200px) {
+    .card_categoria{
+        width: 45%;
+        height: 150px;
+    }
+    .texto_texto_categoria{
+        width: 80%;
+        font-size: 20px;
+    }
+    .texto_descripcion_categoria{
+        width: 80%;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 880px) {
+    .card_categoria{
+        width: 100%;
+        height: 200px;
+    }
+    .texto_texto_categoria{
+        width: 50%;
+        font-size: 24px;
+    }
+    .texto_descripcion_categoria{
+        width: 50%;
+        font-size: 20px;
+    }
+    .btn_ver_agregar_categoria{
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card_categoria{
+        width: 100%;
+        height: 150px;
+    }
+    .texto_texto_categoria{
+        width: 50%;
+        font-size: 24px;
+    }
+    .texto_descripcion_categoria{
+        width: 50%;
+        font-size: 20px;
+    }
+    .btn_ver_agregar_categoria{
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cards_categorias{
+        width:100%;
+    }
+    .card_categoria{
+        width: 100%;
+        height: 150px;
+    }
+    .texto_texto_categoria{
+        width: 80%;
+        font-size: 20px;
+    }
+    .texto_descripcion_categoria{
+        width: 80%;
+        font-size: 20px;
+    }
+    .btn_ver_agregar_categoria{
+        width: 100%;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,435 @@
+html, body { height: 100%; }
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;        
+    font-family: roboto;
+}
+    
+.header{
+    width: 100%;
+    height: 110%;
+    background: url("/images/imgNoticias/banner_receta2.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+}
+.nav .menu-bar{
+    width: 100%;
+    text-align: center;
+    background: rgba(1, 1, 1, 0);
+}
+    
+.menu-bar li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px;
+    margin: 5px 5px;
+    font-size: 15px;
+    font-family: roboto;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.linkmenu{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*la parte que se hereda es la de arriba*/
+
+.banner_titulo
+{
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 387.5%;
+    background-color: transparent;
+    font-weight: bold;
+    /* padding-bottom: 6.25%; */
+}
+
+#receta
+{
+    margin: auto;
+    background-color: rgba(33, 33, 33, 0.8);
+    width: 80%;
+    color: #212121;
+}
+#receta table
+{
+    margin: auto;
+    width: 95%;
+    border-collapse: collapse;
+}
+#receta_izq
+{
+    width: 38%;
+    height: 460px;
+    background: url("/images/imgNoticias/omega3.png");
+    background-size: 100% 100%;
+}
+#receta_der
+{
+    width: 57%;
+    height: 150%;
+}
+
+#receta_der p
+{
+    font-family: roboto;
+    background-color: transparent;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.lista_recetas
+{
+    background-color:#212121 ;
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.receta
+{
+    width: 15%;
+    height: 60%;
+    background-color: gray;
+    text-align: center;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("receta1.jpeg"); */
+}
+.pantalla{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.receta_titulo{
+    font-family: Roboto;
+    font-size: 200%;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+.receta_pasos{
+    font-family: Roboto;
+    font-size: 125%;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FAFAFA;
+    width: 80%;
+    margin:auto;
+}
+
+#myBtn{
+    background-color: tomato;
+    color: #FAFAFA;
+    font-family: Roboto;
+    width: 80%;
+    height: 10%;
+    border: tomato 1px;
+    border-radius: 5;
+}
+
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .recetaTable{
+    width: 100%;
+    height: auto;
+    display: table;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .recetaCell{
+    display: table-cell;
+    height: fit-content;
+
+    ul .eUL{
+        list-style-position: outside;
+        list-style: none;
+    }
+  }
+
+  .ingredientes{
+    background-color: rgb(233, 233, 229);
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+
+    h1{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        font: 900 36px Raleway;
+    }
+    li{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-style: dotted;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        list-style: none;
+        font: 100 16px Raleway;
+    }
+    li::before{
+        content: "\f14a";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.3em; /* same as padding-left set on li */
+        width: 1.3em; /* same as padding-left set on li */
+    }
+  }
+
+.preparacion{
+    width: 65%;
+    font: 300 20px Raleway;
+    ol{
+        list-style-position: outside;
+    }
+    h1{
+        margin-bottom: 10px;
+        font: 900 36px Raleway;
+    }
+
+    li {
+        margin: 4em 0;
+        padding-top: 1em;
+        display: block;
+        position: relative;
+        counter-increment: inst;
+      }
+      li::before {
+        content: counter(inst);
+        
+        background: rgba(156, 91, 0, 0.35);
+        color: #fff;
+        
+        font-size: 1em;
+        font-weight: 700;
+        font-style: italic;
+        text-shadow: 1px 1px rgba(156, 91, 0, 0.5);
+        
+        border-radius: 0 0.675em 0.675em 0;
+        font-size: 1.5em;
+        text-align: center;
+        
+        padding-top: 0;
+        padding-left: 2.25%;
+        left: -5%;
+        top: -0.65em;
+        height: 1.35em;
+        width: 1.35em;
+        position: absolute;
+        
+        transition: all 0.2s ease-in-out;
+        
+        z-index: -1;
+      }
+      @media (min-width: 33em) {
+        li:before {
+          border-radius: 50%;
+          font-size: 1.5em;
+          height: 1.35em;
+          margin-left: 2.5%;
+          padding-left: 0px;
+          padding-top: 0;
+          top: -0.65em;
+          width: 1.35em;
+          z-index: -1;
+        }
+      }
+}
+@media (max-width: 600px) {
+    .preparacion ol{
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 14px;
+    }
+    .preparacion h1{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+.recetaListContainer{
+    display: table;
+    margin: auto;
+    width: 700px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+    -webkit-box-shadow: 1px 28px 44px -19px rgba(0,0,0,0.67);
+    -moz-box-shadow: 1px 28px 44px -19px rgba(0,0,0,0.67);
+    box-shadow: 1px 28px 44px -19px rgba(0,0,0,0.67);
+    z-index: 100;
+
+    h1{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 50px;
+        margin: 10px 0;
+    }
+    p{
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color:rgb(170, 170, 170);
+    }
+}
+
+.recetaListRow{
+    display: table-cell;
+    padding-right: 10px;
+    width: 50%;
+}
+
+.card-number {
+    margin-top: 15px;
+  }
+  
+  .card-circle {
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 22px;
+    font-size: 12px;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+  }
+  .card-read {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin: 5px 0 20px;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  .card-read:after {
+    background-color: #b8bddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 9px;
+    width: 75%;
+  }
+
+.div_boxCarousel{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+  }
+
+  .p40{
+      width: 40%;
+  }
+
+  .p60{
+      width: 60%;
+      padding: 50px;
+  }
+  .nombreReceta {
+    grid-column: span 2;
+    margin-top: 65px;
+    position: relative;
+    border: 2px solid #916953;
+    box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 4px #916953;
+    text-align: center;
+    padding: 35px;
+    width: 100%;
+    font: 300 16px Raleway;
+    i {
+        display: inline-block;
+        padding: 10px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: -20px;
+        width: auto;
+        background: #fafafa;
+        width: 60px;
+        color: #916953;
+    }
+    h4 {
+        font: 900 24px Raleway;
+        text-transform: uppercase;
+        margin: 10px 0 15px;
+        color: #543b2e;
+    }
+}
+  
+  .recetaRow{
+    display: table-row;
+    width: 100%;
+    height: fit-content;
+    iframe{
+        width: 840px;
+    }
+  }
+  
+   .imgContainer{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    width: 100%;
+    height: fit-content;
+  }
+
+  @media(max-width: 800px){
+    .recetaCell{
+      display: table-row;
+    }
+    .recetaRow{
+        iframe{
+            width: 90%;
+            height: 350px;
+        }
+    }
+    .recetaListContainer{
+        width: 95%;
+        height: auto;
+    }
+    .recetaListRow{
+        display: table-row;
+        width: 100%;
+    }
+    .recetaIMG{
+        height: 200px;
+    }
+  }

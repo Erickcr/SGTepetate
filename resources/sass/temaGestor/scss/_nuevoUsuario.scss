@@ -1,0 +1,102 @@
+.containerNU {
+    max-width: 750px;
+    width: 60%;
+	background-color: white;
+	margin: 1% auto;
+    padding-bottom: 1rem;
+    float: left;
+    border: solid #DBDBDB .1rem;
+    border-radius: 2px;
+    display: flex; 
+}
+.formNU {
+    width: 100%;
+	padding: 0 1rem;
+	// display: flex;
+	// flex-direction: column;
+    // justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.divBotonesNU {
+	display: flex;
+	justify-content: space-around;
+    margin-top: 1rem;
+    width: 100%;
+}
+.camposNU{
+    color:#858796;
+    font-family :-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    background-color: white;
+    padding: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+	margin: .5rem 0;
+	border: none;
+    border-bottom: solid #C8C8C8 .1rem;
+    transition: all .5s;
+    width: 45%;
+}
+.txtDatosNU{
+    color:#858796;
+    font-family :-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    opacity: 0.60;
+    padding: .5rem;
+    margin: .5rem 0;
+    width: 48%;
+}
+.selectTipoNU{
+    padding: 0;
+    margin-right: 25px;
+}
+.selectTipoNU option{
+    background-color: #207558;
+    color: white;
+}
+.camposNU:focus {
+	border-bottom: solid #207558 .1rem;
+}
+.campoDateNU{
+    padding: 0;
+    margin: 0;
+}
+.imagenNU{
+    width: 50%;
+    font-style: oblique;
+}
+.btnCancelarNU, .btnAñadirNU {
+
+    font-family :-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+	margin: .5rem 0;
+    width: 25%;
+    border-radius: 5px;
+	background-color: #f8f9fc;
+    color: #3a3b45;
+    font-weight: regular;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+	border: none;
+    border-bottom: solid #C8C8C8 .1rem;
+    
+}
+.btnAñadirNU {
+    background-color: #207558;
+    color: white;
+    border: none;
+}
+.btnCancelarNU:hover {
+    background-color:  #edeef0;
+    color: #3a3b45;;
+}
+.btnAñadirNU:hover{
+    background-color:  #185943;
+}
+

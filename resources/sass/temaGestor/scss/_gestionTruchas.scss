@@ -1,0 +1,576 @@
+.textoTitulosSeccion{
+    text-decoration: none;
+    color:#5a5c69;
+    font-size: 22px;
+}
+.textoTitulosSeccion:hover{
+    color:#48484b;
+    text-decoration: none;
+}
+
+//-----------------botones de referencias-------------
+.btnGT{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.botonesPagGT{ 
+    width: 80%;
+    margin-right: 0px;
+    justify-content: right;
+    display: flex;
+}
+.abtnGT{
+    font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 18px;
+    font-weight:700;
+    font-style:normal;
+    text-decoration:none solid rgb(24, 87, 65);
+}
+.aGT{
+    margin-top:auto; 
+    margin-bottom:auto;
+}
+.abtnGT:hover{
+    text-decoration: underline;
+}
+.abtnGT img{
+    width: 65px;
+    height: 65px;
+}
+.abtnGT img:hover{
+    opacity: 0.8;
+}
+
+//-------------------------------ESTANQUES--------------------------------------
+.kebab{
+    z-index:2;
+    color:#9c9a9a;
+    width: 30px; 
+    height:20px;  
+    text-align:center;
+}
+.kebab :hover{
+    color:#3f3f3f;
+}
+.opcionesEstanque{
+    width: 100%;
+    list-style: none;
+    margin-top:auto; 
+    margin-bottom:auto;
+}
+.seleccionop{
+    height: 40px;
+    margin-bottom: 4%;
+    display: flex;
+    vertical-align: middle;
+}
+.seleccionop:hover{
+    .opcionesEstanque{
+        color:white;
+    }
+    background-color: rgba($color: #aca9a9, $alpha: 0.7);
+    cursor: pointer;
+}
+.headerGT{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.txt_headerGT{   //Textto de los headers
+    color:#5a5c69;
+    font-size: 16px;
+    font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight:700;
+    font-style:normal;
+}
+.div_estanquesGT{  //contenedor de todos los estanques
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.estanqueMayor{
+    width: 100%;
+    border-bottom: solid #207558 .3rem;
+}
+.body_estanqueMayor{
+    background: url("/img/gestor/gestionTruchas/aguaEG.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center center;
+}
+.estanqueMenor{
+    width: 47%;
+    border-left: solid #207558 .3rem;
+}
+.body_estanqueMenor{
+    background: url("/img/gestor/gestionTruchas/aguaEP.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center center;
+}
+.estanqueMenor:hover {
+    border-right: solid #207558 .1rem;
+    border-top: solid #207558 .1em;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+    color:#5a5c69;
+}
+.estanqueMayor:hover {
+    border-left: solid #207558 .1rem;
+    border-right: solid #207558 .1rem;
+    border-top: solid #207558 .1rem;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+    color:#5a5c69;
+}
+.modalEstanque{
+    border-bottom: solid #207558 .3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.modalEstanque div{
+    width: 50%;
+}
+.inputModalE{
+    border: none;
+    color:#908796;
+    width: auto;
+    height: 25%;
+    font-size: 16px;
+    vertical-align:bottom;
+    margin-top: 0px;
+    background-color: transparent;
+}
+.pModalE{
+    margin-bottom: 0px;
+}
+//-----------------------------ENFERMEDADES------------------------------
+.btnAproximacion{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.AD{
+    background-color: #207558;
+}
+.responsiveA{
+    display: none;
+}
+.chart-containerEnfermedades{
+    width: 45%;
+    height: 350px !important;
+}
+//---------------------Aproximación de diagnostico-----------------
+.text-nombreEnfermedad{
+    background-color: transparent;
+    border: none;
+    color:#858796;
+    font-weight: bold;
+    width: fit-content;
+    outline: none;
+}
+.contenido-AP{
+    background-color: transparent;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    display: flex;
+}
+.div_sintomas{
+    width: 55%;
+    float: left;
+    border-right: solid #858796 .1rem;
+}
+.txt-tituloS{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: #009f8a;
+    opacity: 0.50;
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+}
+.listaSintomas{
+    height:350px; 
+    width:98%;
+    overflow-y: auto;
+}
+.sintomaSingle{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #7cccc3 .1rem ;
+}
+/* Hidding the radiobuttons &amp; checkboxes */
+input[type="checkbox"] {
+    display: none;
+    }
+    /* Estado inicial, caja no marcada */
+input[type="checkbox"] + label .fa-check  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    color: transparent;
+    border: solid #7cccc3 .1rem;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+/* caja no marcada */
+input[type="checkbox"]:checked + label .fa-check {
+    position: relative;
+    border: solid #7cccc3 .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #207558;
+    width: 28px;
+    height: 28px;
+}
+.btn-consultarDiagnostico{
+    width:30%; 
+    height: 15%;
+    float: right; 
+    margin-right:3%; 
+    margin-top:5%;
+}
+
+.div_diagnostico{
+    width: 45%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+.diagnostivo-txt{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.resultadoDiagnostico{  //textarea
+    border: solid #7cccc3 .2rem;
+    border-radius: 3px;
+    background-color: white;
+    width: 85%;
+    height: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #858796;
+    resize: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: lighter;
+
+    overflow-y: scroll;
+}
+.resultadoTratamiento{
+    width: 85%;
+    height: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #858796;
+    resize: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font: lighter;
+    font-weight: lighter;
+    overflow-x: scroll;
+}
+.ArchivarConsulta{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #7cccc3;
+}
+.ArchivarConsulta:hover{
+    background-color: #54a39a;
+}
+
+//-------------------------------MORTALIDAD---------------------
+.txt-tituloCM{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+        color: white;
+        padding: 2px;
+        font-size: 17px;
+        background-color: #7cccc3;
+}
+.txt-CausaMuerte{
+    width: 100%;
+    border-bottom: solid #cdcdcd .1rem;
+
+}
+.mortalidadTable{
+    width: 50%;
+}
+
+
+
+
+
+
+//RESPONSIVIDAD-------------
+@media screen and (max-width: 1000px){  //menor o igual a 1000
+    .body_estanqueMenor{
+        background: url("/img/gestor/gestionTruchas/aguaEP2.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+@media screen and (max-width: 524px){
+    .body_estanqueMenor{
+        background: url("/img/gestor/gestionTruchas/aguaEP3.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .body_estanqueMayor{
+        background: url("/img/gestor/gestionTruchas/aguaEG2.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+@media screen and (max-width: 455px){
+    .txt_headerGT{
+        font-size: 14px;
+    }
+    .estanqueMenor{
+        width: 100%;
+    }
+    .body_estanqueMenor{
+        background: url("/img/gestor/gestionTruchas/aguaEP2.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+@media screen and (max-width: 405px){
+    .body_estanqueMayor{
+        background: url();
+    }
+}
+
+
+
+@media screen and (max-width: 1050px){  //botones
+    .botonesPagGT{ 
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        float: center;
+    }
+    
+}
+@media screen and (max-width: 510px){  //botones
+    .botonesPagGT{ 
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+}
+
+//enfermedades, responsividad
+@media screen and (max-width: 700px){
+    .chart-containerEnfermedades{
+        width: 100%;
+        height: 400px !important;
+    }
+    .mortalidadTable{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    .chart-containerEnfermedades{
+        width: 100%;
+        height: 250px !important;
+    }
+}
+@media screen and (max-width: 413px){  //boton
+    .noresponsiveA{
+        display: none;
+    }
+    .responsiveA{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 990px){  //boton
+    .div_sintomas{
+        width: 100%;
+    }
+    .div_diagnostico{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 445px){
+    .div_sintomas label{
+        font-size: 14px;
+    }
+    .textoAclaracion{
+        font-size: 14px;
+    }
+    .resultadoDiagnostico{
+        height: 250px;
+        overflow-y: scroll;
+    }
+    .div_diagnostico p{
+        font-size: 14px;
+    }
+    .AD span{ 
+        font-size: 14px;
+    }
+    .btn-consultarDiagnostico{
+        width:40%; 
+        float: right; 
+        margin-top:5%;
+    }
+    //modal
+    .modalEstanque div{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .btn-consultarDiagnostico{
+        width:45%; 
+        float: right; 
+        // margin-right:3%; 
+        margin-top:5%;
+    }
+    .txt-tituloS{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 480px){
+    .txt-tituloCM{
+        font-size: 15px;
+        width: 80%;
+    }
+    .txt-CausaMuerte{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px){
+    .txt-CausaMuerte{
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 490px){
+    input[type="checkbox"] + label .fa-check  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        color: transparent;
+        border: solid #7cccc3 .1rem;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    /* caja no marcada */
+    input[type="checkbox"]:checked + label .fa-check {
+        position: relative;
+        border: solid #7cccc3 .1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        cursor: pointer;
+        color: #207558;
+        width: 20px;
+        height: 20px;
+    }
+    .sintomaSingle{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 490px){
+    .listaSintomas{
+        width: 100%;
+    }
+    .sintomaSingle{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px){
+    input[type="checkbox"] + label .fa-check  {
+        display: flex;
+        align-items: right;
+        justify-content: right;
+        vertical-align: middle;
+        color: transparent;
+        border: solid #7cccc3 .1rem;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+    /* caja no marcada */
+    input[type="checkbox"]:checked + label .fa-check {
+        // position: absolute;
+        border: solid #7cccc3 .1rem;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+        vertical-align: middle;
+        cursor: pointer;
+        color: #207558;
+        width: 15px;
+        height: 15px;
+    }
+}
+
+
+
+
+
+
+
+

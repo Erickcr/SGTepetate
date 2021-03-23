@@ -1,0 +1,154 @@
+.infopreceta{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-overflow: clip;
+    text-justify: right;
+    width: 100%;
+    padding: 4%;
+}
+.infoh4receta{
+    font-size: 24px;
+    font-variant: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 4%;
+}
+.pReceta {
+	color: #9a9a9a;
+	font-size: 13px;
+    line-height: 20px;
+    font-family: Roboto;
+}
+
+section.our-blog {
+	background-color: #fafafa;
+	padding: 100px 0px 70px 0px;
+}
+
+.our-blog .heading h2 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 80px;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #121212;
+}
+
+.blog-post img {
+    width: 50%;
+	overflow: hidden;
+}
+
+.blog-post {
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.blog-post .right-content {
+	background-color: #fafafa;
+	width: 50%;
+	float: right;
+	padding: 15px;
+}
+
+.blog-post .right-content h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 8px;
+	font-family: 'Spectral', serif;
+	font-size: 21px;
+	color: #121212;
+}
+
+.blog-post .right-content span {
+	font-size: 13px;
+	color: #7a7a7a;
+	display: inline-block;
+	margin-bottom: 18px;
+}
+
+.blog-post .right-content .text-button a {
+	font-size: 13px;
+	font-weight: 500;
+	color: #009F8A;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 12px;
+	display: inline-block;
+}
+
+.blog-post .date {
+	font-size: 17px;
+	color: #009F8A;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	padding: 8px 14px;
+	position: absolute;
+	left: 15px;
+	top: 0px;
+	background-color:#fafafa;
+}
+
+@media (max-width: 991px){
+    .blog-post img {
+		width: 100%;
+		overflow: hidden;
+	}
+	.blog-post {
+		margin-bottom: 30px;
+	}
+	.blog-post .right-content {
+		background-color: #fafafa;
+		width: 100%;
+		float: none;
+		padding: 20px;
+    }
+    .imgomega{
+        -o-object-fit: fill;
+       object-fit: fill;
+       width: 465px;
+       height: 315px;
+       object-fit:cover;
+       opacity:0.9
+    }
+}
+
+@media (max-width: 768px){
+    .blog-post img {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.blog-post {
+		margin-bottom: 30px;
+	}
+
+	.blog-post .right-content {
+		background-color: #fff;
+		width: 100%;
+		float: none;
+		padding: 20px;
+    }
+    .imgomega {
+    -o-object-fit: fill;
+       object-fit: fill;
+       width: 100%;
+       height: auto;
+  }
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #009F8A; // use your own color here
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #009F8A !important;
+    border-color: #009F8A !important;
+}

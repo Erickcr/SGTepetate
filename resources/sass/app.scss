@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "post.scss";
+@import "contact.scss";
+@import "footerMain.scss";
+@import "bootstrap-overrides.scss";
+@import "estiloContactanos.scss";
+@import "estiloSobreNosotros.scss";
+@import "styleProductos.scss";
+@import "styleReceta.scss";
+@import "styleRecetas.scss";
+@import "styleRecetas2.scss";
+@import "styleNoticias.scss";
+@import "stylePedidos.scss";
+@import "styleCarrito.scss";
+@import "styleSolicitarPedido.scss";

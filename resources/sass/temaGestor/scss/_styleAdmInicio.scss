@@ -1,0 +1,68 @@
+
+/*PÁGINA INICIO SISTEMA ADMINISTRATIVO*/
+                    /* Página de inicio, aquí se da la bienvenida*/
+.txt-bienvenido{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+.txt-bienvenido h6{
+    width: auto;
+    text-align: center;
+    font-size: 20px;
+    color: #207558;
+    font-weight: bold;
+}
+.body_Inicio p{
+    font-size: 18px;
+    text-align: center;
+}
+.reloj{
+    width: 100%;
+    text-align: center;
+    border: 0px;
+    background-color:transparent; 
+    font-family:nunito; 
+    font-weight:normal; 
+    color:#858796;
+    font-size: 18px;
+}
+#link_cerrar
+{
+    width: 80%;
+    margin: auto;
+    color: #ECECEC;
+    text-align: right;
+}
+#link_cerrar :focus{
+    background-color: transparent;
+
+}
+//RESPONSIVIDAD
+@media screen and (max-width: 700px){
+    .txt-bienvenido h6{
+        font-size: 18px;
+    }
+    .body_Inicio p{
+        font-size: 16px;
+    }
+    .reloj{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .txt-bienvenido h6{
+        font-size: 15px;
+    }
+    .body_Inicio p{
+        font-size: 13px;
+    }
+    .reloj{
+        font-size: 13px;
+    }
+    .cerrar{
+        font-size: 15px;
+    }
+    
+}

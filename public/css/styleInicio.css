@@ -1,0 +1,612 @@
+html, body { height: 100%; }
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;        
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    background: url("/img/fish-filter.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+}
+#headerLogos{
+    width: 100%;
+    height: 50%;
+    display: table;
+}
+#llamanosTabla{
+    width: 33%;
+    height:100%;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+#logoHeader{
+    width: 33%;
+    height: 100%;
+    display: table-cell;
+    margin: auto;
+}
+#carritoHeader{
+    width: 33%;
+    height: 100%;
+    display: table-cell;
+    margin: auto;
+}
+#menuInicio{
+    width: 100%;
+}
+#cuerpoInicio{
+    width: 100%;
+    margin-top: 15%;
+}
+#infoInicio{
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 1%;
+}
+#leerMasInicio{
+    width: 100%;
+}
+.nav .menu-bar{
+    width: 100%;
+    text-align: center;
+    background: rgba(1, 1, 1, 0);
+}
+    
+.menu-bar li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px;
+    margin: 5px 5px;
+    font-size: 15px;
+    font-family: roboto;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.linkmenu{
+    color: white;
+    text-decoration: none;
+}
+
+/*Lo de arriba son los estilos del template*/
+
+
+.title
+{
+    font-family: Roboto;
+    font-size: 312.5%;
+    color: #FAFAFA;
+    text-align: center;
+    font: bold;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.9;
+}
+
+.title2
+{
+    font-family: Roboto;
+    font-size: 1.8vw;
+    color: #453D44;
+    text-align: center;
+    font-weight: medium;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+}
+
+.title3
+{
+    font-family: Roboto;
+    font-size: 312.5%;
+    color: #000000;
+    text-align: center;
+    font-weight: medium;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+}
+
+.title4
+{
+    font-family: Roboto;
+    font-size: 2.5vw;
+    color: #000000;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+}
+
+.normal1
+{
+    font-family: Roboto;
+    font-size: 105%;
+    color: white;
+    text-align: center;
+    font-weight: medium;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.7;
+    width: 40%;
+    justify-self: center;
+    align-content: center;
+    margin: auto;
+}
+.leermas
+{
+    font-family: Roboto;
+    font-size: 105%;
+    color: white;
+    text-align: center;
+    font-weight: medium;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+    width: 40%;
+    justify-self: center;
+    align-content: center;
+    margin: auto;
+}
+.leermas:hover{
+    opacity: 0.7;
+}
+.normal2
+{
+    font-family: Roboto;
+    font-size: 75%;
+    color: #191919;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+    justify-self: center;
+    align-content: center;
+    margin: auto;
+}
+
+.normal3
+{
+    font-family: Roboto;
+    font-size: 1.2vw;
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+    justify-self: center;
+    align-content: center;
+    margin: auto;
+
+}
+
+.pantalla{
+    width: 100%;
+    height: 90%;
+    background-color: #FAFAFA;
+    opacity: 1;
+}
+
+.productos{
+    width:20%;
+    height: 60%;
+    margin:auto;
+    border: 1px solid #707070;
+    display: inline-block;
+}
+
+.vermas{
+    font-family: Roboto;
+    font-size: 80%;
+    color: #000000;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.54;
+    justify-self: center;
+    align-content: center;
+    margin: auto;
+    height: 3%;
+}
+.vermas :hover{
+    opacity: 0.54;
+}
+.link{
+    text-decoration: none;
+}
+
+
+.divImagen{
+    background: url("/img/rope-filter.jpg")center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+}
+.titleMF
+{
+    font-family: Roboto;
+    font-size: 3.5vw;
+    color: #FAFAFA;
+    text-align: center;
+    font: bold;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 8%;
+    opacity: 0.9;
+}
+#btn_noticias{
+    padding-top: 2%;
+}
+.buttonNoticias{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 1.5vw;
+    color: white;
+    padding: 0.5%;
+    width: 12.3%;
+    height: 10.38%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.buttonNoticias:hover{
+    /* opacity: 0.6; */
+    background-color: rgba(0, 0,0, 0.65);
+}
+.celdaImagen1{
+    height:50%;
+    width:25%;
+    background: url("/img/imgGranja/photo1.jpeg")center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.celdaImagen2{
+    height:50%;
+    width:25%;
+    background: url("/img/imgGranja/photo2.jpg")center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.celdaImagen3{
+    height:50%;
+    width:25%;
+    background: url("/img/imgGranja/photo3.jpg")center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.celdaImagen4{
+    height:50%;
+    width:25%;
+    background: url("/img/imgGranja/photo4.jpg")center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.celdaImagen5{
+    height:50%;
+    width:25%;
+    background: url("/img/imgGranja/photo5.jpg")center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.celdaImagen6{
+    height:50%;
+    width:25%;
+    background: url("/img/imgGranja/photo6.jpeg")center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.parrafo{
+    font-family: roboto;
+    font-size:106.25%;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.7;
+    justify-self: center;
+    align-content: center;
+    margin: auto;
+}
+.parrafoCP{
+    font-family: roboto;
+    font-size:106.25%;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.7;
+    justify-self: center;
+    align-content: center;
+    margin: auto;
+}
+.parrafoCP:hover{
+    opacity: 1;
+}
+
+.parrafo2{
+    font-family: roboto;
+    font-size:75%;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.7;
+    justify-self: center;
+    align-content: center;
+    margin: auto;
+    width: 80%;
+}
+
+.parrafo3{
+    font-family:Roboto;
+    color:black;
+    opacity:0.45;
+    font-size:1.3vw;
+    font-weight:normal;
+    width: 95%;
+    float: left;
+    margin-left: 2.5%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.parrafo4{
+    font-family: Roboto;
+    font-size: 1.3vw;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.7;
+    justify-self: center;
+    align-content: center;
+    margin: auto;
+}
+.div_sobreN{
+    /* background-color: brown; */
+    height: 100%;
+    width: 80%;
+    vertical-align:top;
+    margin:auto;
+    justify-self: center;
+    align-content: center;
+    border: 0.5px solid grey;
+}
+.div_btnC{
+    height: 40%;
+    width: 60%;
+    background: url("/img/conocenos.jpg")center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    /* filter:brightness(0.8); */
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.buttonConocenos{
+    background-color: rgba(49, 48, 48, 0.65);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 1.5vw;
+    color: white;
+    padding: 0.5%;
+    width: 25%;
+    height: 15%;
+    cursor: pointer;
+}
+.buttonConocenos:hover{
+    background-color: rgba(0, 0,0, 0.65);
+}
+.pantalla5{
+    background: url("/img/fish2.jpg")center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.separacion{
+    height: 60%;
+    width: 100%;
+}
+#informacion{
+    width: 40%;
+    height: 40%;
+    float: right;
+}
+#txt_mejoraCalidad{
+    font-family:Roboto;
+    text-align: center;
+    width: 100%;
+    color:black;
+    opacity:0.8;
+    font-size: 2vw;
+
+}
+.buttonConocerMas{
+    background-color: #FFFFFF;
+    opacity: 1;
+    font-family: Roboto;
+    font-size: 1vw;
+    border: none;
+    color: black;
+    width: 40%;
+    height: 15%;
+    cursor: pointer;
+    float: right;
+    margin-right: 30%;
+}
+.buttonConocerMas:hover{
+    background-color:black;
+    color: white;
+}
+
+.pantalla6{
+    background: url("/img/wood1.jpg")center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.pantalla7{
+    background: url("/img/textura.jpg")center center;
+    /* background-color: blue; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.divBoton{
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 2%;
+    width: 20%;
+    height: 25%;
+}
+.divBoton:hover{
+    box-shadow: 2px 2px 5px #999;
+}
+.normal4{
+    font-family: Roboto;
+    font-size: 1.5vw;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    justify-self: center;
+    align-content: center;
+    margin: auto;
+}
+.div_recetasR{
+    background-color: transparent;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_receta{
+    height: 95%;
+    width: 35%;
+    background-color: rgba(49, 48, 48, 0.4);
+    border-radius: 5%;
+}
+.div_imgReceta{
+    height: 50%;
+    width: 100%;
+    background: url("/img/patron.jpeg")center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 10%;
+}
+.div_imgReceta1{
+    height: 50%;
+    width: 100%;
+    background:url("/img/receta.jpeg")center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 10%;
+}
+.buttonRecetas{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 1.4vw;
+    color: white;
+    width: 30%;
+    height: 10.38%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.buttonRecetas:hover{
+    background-color: rgba(0, 0,0, 0.65);
+}
+.btn_vermasR{
+    background-color:  black;
+    border-radius: 10px;
+    font-family: Roboto;
+    border: none;
+    font-size: 1.4vw;
+    color:white;
+    width: 15%;
+    height: 7%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.btn_vermasR:hover{
+    background-color:  rgba(0, 0,0, 0.70);
+}
+.btn_contacto{
+    background-color:  rgba(1, 1,1, 0.70);
+}

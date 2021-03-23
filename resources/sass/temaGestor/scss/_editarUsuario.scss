@@ -1,0 +1,71 @@
+.btnCancelarNUE, .btnGuardarNUE {
+
+    font-family :-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+	margin: .5rem 0;
+    width: 25%;
+    border-radius: 5px;
+	background-color: #f8f9fc;
+    color: #3a3b45;
+    font-weight: regular;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+	border: none;
+    border-bottom: solid #C8C8C8 .1rem;
+    
+}
+.btnGuardarNUE {
+    background-color: #207558;
+    color: white;
+    border: none;
+}
+.btnCancelarNUE:hover {
+    background-color:  #edeef0;
+    color: #3a3b45;;
+}
+.btnGuardarNUE:hover{
+    background-color:  #185943;
+}
+.CNUE{
+    width: 60%;
+    float: left;
+}
+.PNUE{
+    width: 40%;
+}
+.selectTipoEDIT option{
+    background-color: #207558;
+    color:white;
+}
+
+
+//------------------------RESPONSIVIDAD--------------------------
+@media(max-width: 850px){
+    .containerNU{
+        width: 100%;
+    }
+}
+@media(max-width: 450px){
+    .PNUE{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .CNUE{
+        width: 100%;
+    }
+    .camposNU{
+        margin: 0px;
+        width: 100%;
+    }
+    .txtDatosNU{
+        margin: 0px;
+        width: 100%;
+    }
+    .btnCancelarNUE, .btnGuardarNUE{
+        width: 40%;
+    }
+}
